@@ -39,6 +39,8 @@ img{
     width: 1000px;
     
     /** TODO 1: Center the site on the screen **/
+    margin-left: auto;
+    margin-right: auto;
 
     border-radius: 8px;
     overflow: hidden;
@@ -56,15 +58,30 @@ img{
 
 #logo{
     /* #logo styles here */
+    float: left;
+    text-decoration: none;
+    color: white;
+    /*text-transform: uppercase;*/
+    font-size: 35px;
+    width: 20%;
 }
 #main_nav{
 
     /* #main_nav styles here */
+    float: right;
+    width: 80%;
+    text-align: right;
 }
 #main_nav a{
     background-color: #E57727;
 
     /* #navigation button styles here */
+    padding: 12px 18px 12px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    /*margin-bottom: 20px;*/
+    display: inline-block;
 }
 #main_nav a:hover{
     background-color: #BA3610;
@@ -85,11 +102,16 @@ img{
     The text column should be wider than
     the image column
 **/
+
 #call_to_action div{
     /* text column styles here */
+    float: left;
+    width: 60%;
 }
 #call_to_action img{
     /* image column styles here */
+    float: right;
+    width: 30%;
 }
 #call_to_action h1, #call_to_action p{
     color: white;
@@ -129,15 +151,21 @@ img{
 
 #featured_products li{
     /* list item styles here */
+    float: left;
+    width: 33%;
+    margin-right: 3px;
 }
 #featured_products li:last-child{
     /* styles for the last li here */
+    float: right;
 }
 #featured_products li img{
     border-radius: 4px;
 }
 #featured_products h2{
     /* TODO 4: Match the styles of the h2 to the mockup */
+    text-transform: uppercase;
+    font-size: 20px;
 }
 #featured_products p{
     margin-top: 0;
@@ -178,6 +206,12 @@ img{
 }
 #products header{
     /* TODO 5: Style the product list header to match the mockup */
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-bottom: 2px black solid;
 }
 #products header p{
     text-transform: uppercase;
@@ -199,6 +233,11 @@ img{
     height: 380px;
 
     /* Additional styles for the li elements here */
+    float: left;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 3%;
 }
 #products li img{
     border-radius: 4px;
